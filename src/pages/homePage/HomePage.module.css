@@ -1,0 +1,41 @@
+.treeMenu {
+    height: 80vh;
+    border: 3px solid #000000;
+    min-width: 80px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-column-gap: 1vh;
+    height: 80vh;
+    margin: 1vh;
+}
+
+.content {
+    border: 3px solid #000000;
+}
+
+
+.bar {
+    height: 10vh;
+    margin: 1vh;
+    border: 3px solid #000000;
+}
+
+.logo {
+    animation: logo-spin infinite 20s linear;
+    height: 6vmin;
+    pointer-events: none;
+    margin: 2vh;
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
